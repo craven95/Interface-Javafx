@@ -50,6 +50,8 @@ public class UdpServer extends Thread {
                 
                 for (int i = 0; i < tampon.length; i++) {
                 	data.add(tampon[i] & 0xFF);
+                	//This line permits to convert my byte in an integer. 
+                	//I know it doesn't work and i have to improve my conversion.
                 	
                 }
                 
